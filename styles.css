@@ -40,6 +40,23 @@ body {
 	flex: 1;
 	height: 500px;
 	border: 2px solid black;
+	padding-left: 4%;
+}
+
+.form-elements select {
+	width: 82%;
+	height: 25px;
+	border-radius: 8px;
+	border: 1px solid black;
+}
+
+.slider {
+	-webkit-appearance: none;
+	width: 80%;
+	border-radius: 5px;
+	height: 8px;
+	border: 1px solid black;
+/*Need to style slider, currently rectangle, want a circle	*/
 }
 
 .songs {
@@ -66,3 +83,5 @@ body {
 .songs ul li {
 	padding: 0 5px;
 }
+
+
