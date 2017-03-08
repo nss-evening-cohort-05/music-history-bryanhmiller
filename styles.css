@@ -1,0 +1,120 @@
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: Arial;
+}
+
+.nav-bar {
+	background: #FFB4B0;
+	width: 80%;
+	height: 100px;
+	margin: 0 auto 10px auto;
+	border: 2px solid black;
+	display: flex;
+}
+
+.nav-bar ul {
+	list-style: none;
+	display: inline-flex;
+	padding-top: 25px;
+}
+
+.nav-bar ul li {
+	padding: 0 2px;
+	text-decoration: none;
+}
+
+.nav-bar ul li a {
+	text-decoration: none;
+}
+
+.particulars {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.form-elements {
+	background: #4DD7FA;
+	flex: 1;
+	height: 475px;
+	border: 2px solid black;
+	padding-left: 4%;
+	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-elements select {
+	width: 82%;
+	height: 25px;
+	border-radius: 8px;
+	border: 1px solid black;
+}
+
+.slider {
+	-webkit-appearance: none;
+	width: 80%;
+	border-radius: 5px;
+	height: 8px;
+	border: 1px solid black;
+/*Need to style slider, currently rectangle, want a circle	*/
+}
+
+.checkboxes {
+	display: flex;
+}
+
+.checkboxes div label {
+	padding: 2px;
+}
+
+.left-column {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.right-column {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+#filter-button {
+	width: 60%;
+	margin-left: 10%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid black;
+	font-size: 1.25em;
+	margin-top: 50px;
+}
+
+.songs {
+	background: #FEFAC0;
+	flex: 3;
+	height: 500px;
+	margin-left: 1%;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+.songs h1 {
+	padding-top: 10px;
+	padding-left: 40px;
+	margin-bottom: 0;
+	color:  #785616;
+}
+
+.songs ul {
+	list-style: none;
+	display: inline-flex;
+}
+
+.songs ul li {
+	padding: 0 5px;
+}
+

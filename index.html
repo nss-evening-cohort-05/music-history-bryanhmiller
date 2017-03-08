@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Music History I</title>
+		<link rel="stylesheet" type="text/css" href="/styles.css">
+	</head>
+	<body>
+		<nav>
+			<div class="nav-bar">
+				<ul>
+<!-- 3. The links in the navigation bar don't need to link to anything just yet, you can use `<a href="#">View music</a>` for now -->
+					<li><a href="#">View Music</a></li>
+					<li><strong>|</strong></li>
+					<li><a href="#">Add Music</a></li>
+					<li><strong>|</strong></li>
+					<li><a href="#">Profile</a></li>
+				</ul>	
+			</div>
+		</nav>
+		<div class="particulars">
+			<div class="form-elements">
+				<p>Song length:</p>
+					<input class="slider" type="range" min="0" max="50" value="25" />
+<!-- 1. Create five options for the artist select element of any artist that you enjoy. -->
+				<p>Artist:</p>
+						<option value=""></option>
+					<select name="Artist">
+						<option value=""></option>
+						<option value="Allie-Miller">Allie Miller</option>
+						<option value="Need-to-Breathe">Need To Breathe</option>
+						<option value="Crowder">Crowder</option>
+						<option value="Hanson">Hanson</option>
+						<option value="Dirty-Loops">Dirty Loops</option>
+					</select>
+<!-- 2. Create at least five options for the album select element. One, or more, album for each artist. -->
+				<p>Album:</p>
+					<select name="Album">
+						<option value=""></option>
+						<option value="Dance-in-the-Rain">Dance in the Rain</option>
+						<option value="Testify">Testify</option>
+						<option value="This-I-Know">This I Know</option>
+						<option value="MMMBop">MMMBop</option>
+						<option value="Wake Me Up">Wake Me Up</option>
+					</select>
+				<p>Genre:</p>
+				<div class="checkboxes">
+					<div class="left-column">
+						<label for="specialconditions"><input type="checkbox" name="specialconditions" value="Rock">Rock</label>
+						<label for="specialconditions"><input type="checkbox" name="specialconditions" value="Pop">Pop</label>
+						<label for="specialconditions"><input type="checkbox" name="specialconditions" value="Blues">Blues</label>	
+					</div>
+					<div class="right-column">
+						<label for="specialconditions"><input type="checkbox" name="specialconditions" value="Classical">Classical</label>	
+						<label for="specialconditions"><input type="checkbox" name="specialconditions" value="Jazz">Jazz</label>	
+						<label for="specialconditions"><input type="checkbox" name="specialconditions" value="Hip Hop">Hip Hop</label>	
+					</div>
+				</div>
+				<button id="filter-button">Filter</button>	
+			</div>
+			<div class="songs">
+<!-- 4. Pick your four favorite songs from the artists you have chosen and use the information for each in the list that's on the right-hand side. You can use `h1` tags, `div` tags, `section` tags... whatever you like. -->
+				<h1>Dance in the Rain</h1>
+				<ul>
+					<li>Allie Miller</li>
+					<li><strong>|</strong></li>
+					<li>Dance in the Rain</li>
+					<li><strong>|</strong></li>
+					<li>Pop</li>
+				</ul>	
+				<h1>Testify</h1>
+				<ul>
+					<li>Need To Breathe</li>
+					<li><strong>|</strong></li>
+					<li>Hard Love</li>
+					<li><strong>|</strong></li>
+					<li>Rock</li>
+				</ul>	
+				<h1>MMMBop</h1>
+				<ul>
+					<li>Hanson</li>
+					<li><strong>|</strong></li>
+					<li>Middle of Nowhere</li>
+					<li><strong>|</strong></li>
+					<li>Pop</li>
+				</ul>	
+				<h1>This I Know</h1>
+				<ul>
+					<li>Crowder</li>
+					<li><strong>|</strong></li>
+					<li>Neon Steeple</li>
+					<li><strong>|</strong></li>
+					<li>Pop</li>
+				</ul>	
+			</div>
+		</div>
+	</body>
+</html>
